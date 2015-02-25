@@ -4,8 +4,8 @@
 var gulp       = require('gulp'),
     $          = require('gulp-load-plugins')(),
     rimraf     = require('rimraf'),
-    sequence   = require('run-sequence')
-//,modRewrite = require('connect-modrewrite');
+    sequence   = require('run-sequence'),
+    deploy      = require('gulp-gh-pages');
 
 // 2. TEMPLATES SETTINGS
 // - - - - - - - - - - - - - - -
@@ -194,6 +194,13 @@ gulp.task('build', function() {
     });
 });
 
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+    return gulp.src("./build/**/*")
+        .pipe(deploy());
+});
 
 // Default task: builds your app, starts a server, and recompiles assets when they change
 gulp.task('default', ['build', 'server:start'], function() {
