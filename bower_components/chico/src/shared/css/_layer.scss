@@ -1,0 +1,11 @@
+/**
+ * Layer
+ */
+
+@import 'layer-variables';
+
+
+.ch-layer {
+    box-shadow: $layer-box-shadow;
+    position: absolute;
+}

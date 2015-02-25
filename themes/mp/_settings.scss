@@ -1,0 +1,80 @@
+// Local variables
+$primary-ui-color: #36A1F1;
+
+// *************************************
+//
+//   COMMON SHARED SKIN VARIABLES
+//
+// *************************************
+$main-primary-color: #0637b3;
+
+
+// *************************************
+//
+//   Buttons
+//
+// *************************************
+
+$btn-text-family: Lato, sans-serif;
+//$btn-border-radius: 4px !default;
+//$btn-box-shadow: 0 1px #97DCFF inset;
+//$btn-text-decoration: none !default;
+//$btn-text-size: $font__large !default;
+//$btn-large-text-size: $font__x__large !default;
+
+//$btn-primary-text-color: $main-neutral-color;
+$btn-primary-bg-color: $primary-ui-color;
+$btn-primary-bg-color-secondary: #0F79C9;
+//$btn-primary-active: #29358f;
+$btn-primary-border: 1px solid #0d6fb9;
+//$btn-primary-shadow: 0 1px #97DCFF inset;
+$btn-primary-box-shadow: 0 1px #97DCFF inset;
+
+$btn-primary-box-hover: #4CBFF8;
+$btn-primary-box-hover-bg-color: #4CBFF8;
+$btn-primary-box-hover-bg-color-secondary: #1699DF;
+$btn-primary-hover-box-shadow: 0 1px #B6EBFF inset;
+
+$btn-primary-active-bg-color: #1473CD;
+$btn-primary-active-bg-color-secondary: #1473CD;
+$btn-primary-active-border: 1px solid #0B5BA6;
+$btn-primary-active-box-shadow: 0 1px #0B5BA6 inset;
+
+
+//$btn-secondary-text-color: #476274 !default;
+$btn-secondary-bg-color: #e9e9e9;
+$btn-secondary-bg-color-secondary: #f0f0f0;
+$btn-secondary-border: 1px solid #dedede;
+//$btn-secondary-active: #7c9cB2 !default;
+//$btn-secondary-shadow: none !default;
+//$btn-secondary-box-shadow: 0 1px 0 #e5f2fc inset !default;
+//$btn-secondary-text-shadow:	0 1px 1px $main-text-shadow-color !default;
+
+$btn-secondary-hover-bg-color: #e9e9e9;
+$btn-secondary-hover-bg-color-secondary: darken(#e9e9e9, 6%);
+//$btn-secondary-hover-box-shadow: 0 1px 0 #e5f2fc inset !default;
+
+//$btn-secondary-active-bg-color: #a2c9e1 !default;
+//$btn-secondary-active-bg-color-secondary: #7ab6dc !default;
+//$btn-secondary-shadow-active: #476274 !default;
+//$btn-secondary-border-active: #79a8c7 !default;
+//$btn-secondary-active-box-shadow: 0 1px 6px #476274 inset !default;
+
+
+
+// *************************************
+//
+//   Pagination UI
+//
+// *************************************
+
+//$pagination-current-hover-bg-color: $main-border-color !default;
+//$pagination-current-hover-border: 1px solid $main-border-color !default;
+//$pagination-current-hover-text-color: $main-primary-color !default;
+
+//$pagination-next-and-prev-border: $main-neutral-color !default;
+$pagination-next-and-prev-hover-border: $primary-ui-color;
+
+$pagination-to-select-hover-bg-color: $primary-ui-color;
+$pagination-to-select-hover-border: $primary-ui-color;
+//$pagination-to-select-hover-text-color: $main-neutral-color !default;

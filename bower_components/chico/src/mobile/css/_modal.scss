@@ -1,0 +1,11 @@
+/* MODAL */
+@import 'modal-variables';
+
+.ch-modal {
+  background-color: $modal-bg-color;
+  width: 100%;
+}
+
+.ch-modal-content {
+  background-color: $modal-content-bg-color;
+}
